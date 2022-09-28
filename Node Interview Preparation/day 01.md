@@ -1,17 +1,17 @@
-# NodeDay1
+# Node Preparation Day 1
 
 1. What is Node.JS?
 
-Ans. Node.js is an open-source server side runtime environment built on Chrome's V8 JavaScript engine. It provides an event driven, non-blocking      (asynchronous) I/O and cross-platform runtime environment for building highly scalable server-side applications using JavaScript.
+Ans. Node.js is an open-source server side runtime environment built on Chrome's V8 JavaScript engine. It provides an event driven, non-blocking (asynchronous) I/O and cross-platform runtime environment for building highly scalable server-side applications using JavaScript.
 
 2. What is NPM?
 
-Ans. NPM stands for 'Node Package Manager',NPM is the world's largest software registry. Open source developers from every continent use npm to share and    borrow packages, and many organizations use npm to manage private development as well.
+Ans. NPM stands for 'Node Package Manager',NPM is the world's largest software registry. Open source developers from every continent use npm to share and borrow packages, and many organizations use npm to manage private development as well.
 
 NPM consists of three distinct components:
 
-i)   the website
-ii)  the Command Line Interface (CLI)
+i) the website
+ii) the Command Line Interface (CLI)
 iii) the registry
 
 3. What are the different modules in Node.JS?
@@ -26,45 +26,13 @@ Third-party Modules
 
 4. What is the purpose of the module.exports?
 
-Ans. Module exports are the instructions that tell Node. js which bits of code (functions, objects, strings, etc.) 
-      to export from a given file so that other files are allowed to access the exported code
-
+Ans. Module exports are the instructions that tell Node. js which bits of code (functions, objects, strings, etc.)
+to export from a given file so that other files are allowed to access the exported code
 
 5. Difference between default export and named export?
 
 Ans. Exports without default tag are named export and exports with default tag are default export Using one over the other can have effects on your code readability, file structure, and component organization.
-   
-                    Named export
-                    export const MyFunction = () => {
-                     ... body
-                     
-                     }
-                     export function Myfunction{
-                     ...
-                     }
-                     
-                  Default export
-                  
-                  const MyComponent = () => {}
 
-                   export default MyComponent
-
-                   // or
-
-                  function MyComponent() {}
-
-                  export default MyComponent
-
-                  // or
-
-                export default function() {}
-
-                   // or
-
-               export default () => {}
-                view raw
-                     
-                     
 
 6. How do you import any node modules in Node.JS?
 
