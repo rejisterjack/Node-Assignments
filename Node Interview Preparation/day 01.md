@@ -1,40 +1,17 @@
-# Node Preparation Day 1
+Q.1 What is node.js ?
+Node.js is an open source, cross-platform runtime environment and library that is used for running web applications outside the client’s browser. Node.js is designed to build scalable network applications. In the following "hello world" example, many connections can be handled concurrently. Upon each connection, the callback is fired, but if there is no work to be done, Node.js will sleep.
 
-1. What is Node.JS?
+Q.2 What is NPM? 
+Npm stands for Node Package Manager. It is a package manager for the Node JavaScript platform. Npm is known as the world’s largest software registry. Open-source developers all over the world use npm to publish and share their source code. 1.The website allows you to find third-party packages, set up profiles, and manage your packages. 2.The command-line interface or npm CLI that runs from a terminal to allow you to interact with npm.
 
-Ans. Node.js is an open-source server side runtime environment built on Chrome's V8 JavaScript engine. It provides an event driven, non-blocking (asynchronous) I/O and cross-platform runtime environment for building highly scalable server-side applications using JavaScript.
+Q.3 What are the different modules in Node.js?
+Modules are of three types: 1.Core Modules(http,path,process,url,os) 2.local Modules(local modules are created locally in your Node.js application.) 3.Third-party Modules(npm install express,npm install mongoose,npm install -g @angular/cli)
 
-2. What is NPM?
+Q.4 What is the purpose of the module.exports?
+The module. exports is a special object which is included in every JavaScript file in the Node. js application by default. The module is a variable that represents the current module, and exports is an object that will be exposed as a module. So, whatever you assign to module.
 
-Ans. NPM stands for 'Node Package Manager',NPM is the world's largest software registry. Open source developers from every continent use npm to share and borrow packages, and many organizations use npm to manage private development as well.
+Q.5 Difference between default export and named export 
+--A default export can only export a single object, function, or variable and curly braces are omitted when importing in various files. --Named exports are imported with curly braces in various files and must be imported using the name of the object, function or variable that was exported.
 
-NPM consists of three distinct components:
-
-i) the website
-ii) the Command Line Interface (CLI)
-iii) the registry
-
-3. What are the different modules in Node.JS?
-
-Ans. In Node.js, Modules are the blocks of encapsulated code that communicates with an external application on the basis of their related functionality. Modules can be a single file or a collection of multiples files/folders. The reason programmers are heavily reliant on modules is because of their re-usability as well as the ability to break down a complex piece of code into manageable chunks.
-
-Modules are of three types:
-
-Core Modules
-local Modules
-Third-party Modules
-
-4. What is the purpose of the module.exports?
-
-Ans. Module exports are the instructions that tell Node. js which bits of code (functions, objects, strings, etc.)
-to export from a given file so that other files are allowed to access the exported code
-
-5. Difference between default export and named export?
-
-Ans. Exports without default tag are named export and exports with default tag are default export Using one over the other can have effects on your code readability, file structure, and component organization.
-
-
-6. How do you import any node modules in Node.JS?
-
-Ans. To import our own Node JS module. var express = require("express");
-To import existing Node JS Module Import Node JS “express” module; var arthmetic = require("express"); Import Node JS “mongoose” module; var mongoose = require("mongoose")
+Q.6 How do you import any module in Node.js require() function
+In order to use Node. js core or NPM modules, you first need to import it using require() function as shown below. var module = require('module_name'); As per above syntax, specify the module name in the require() function.
